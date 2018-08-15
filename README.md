@@ -1,2 +1,2 @@
 # StoreOfBuild
-Criado para realização da aplicação de treinamento
+Projeto de treinamento ASP.NET Core.
