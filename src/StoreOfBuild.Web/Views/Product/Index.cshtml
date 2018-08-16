@@ -9,9 +9,21 @@
         <a href="/Product/CreateOrEdit" class="btn btn-primary">New</a>
     </div>
 </div>
+<br>
 <div class="row">
     <div class="col-md-12">
         <table class="table table-hover">
+            <thead>
+                <tr>
+                    <td>
+                        <p class="name">Name</p>
+                    </td>
+                    <td>
+                        <p class="name">Category Name</p>
+                    </td>
+                    <td></td>
+                </tr>
+            </thead>
             <tbody>
                 @if(@Model != null)
                 {
@@ -25,7 +37,8 @@
                                 <a class="name">@viewModel.CategoryName</a>
                             </td>
                             <td>
-                                <a href="/Product/CreateOrEdit/@viewModel.Id" class="btn">Edit</a>
+                                [NOT IMPLEMENTED]
+                                <a href="/Product/CreateOrEdit/@viewModel.Id" class="btn btn-default">Edit</a>
                             </td>
                         </tr>
                     }

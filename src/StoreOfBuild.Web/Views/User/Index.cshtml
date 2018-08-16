@@ -9,9 +9,18 @@
         <a href="/User/Create" class="btn btn-primary">New</a>
     </div>
 </div>
+<br>
 <div class="row">
     <div class="col-md-12">
         <table class="table table-hover">
+            <thead>
+                <tr>
+                    <td>
+                        <p class="name">E-mail</p>
+                    </td>                   
+                    <td></td>
+                </tr>
+            </thead>
             <tbody>
                 @if(@Model != null)
                 {
@@ -22,7 +31,8 @@
                                 <a class="name">@viewModel.Email</a>
                             </td>
                             <td>
-                                <a href="/User/ChangePassword/@viewModel.Id" class="btn">Change password</a>
+                                [NOT IMPLEMENTED]
+                                <a href="/User/ChangePassword/@viewModel.Id" class="btn btn-default">Change password</a>
                             </td>
                         </tr>
                     }

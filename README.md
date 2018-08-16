@@ -1,2 +1,2 @@
 # StoreOfBuild
-Projeto de treinamento ASP.NET Core.
+Projeto do treinamento ASP.NET Core MVC com DDD.

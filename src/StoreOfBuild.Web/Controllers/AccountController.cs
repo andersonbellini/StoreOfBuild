@@ -33,7 +33,7 @@ namespace StoreOfBuild.Web.Controllers
                 return Redirect("/");
             else
             {
-                ModelState.AddModelError(string.Empty, "Invalid login attempt.");
+                ModelState.AddModelError(string.Empty, "Invalid login attempt. Try again!");
                 return View(model);
             }
         }
